@@ -1,15 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 .pricingCard {
-  border-radius: 34px;
-  display: flex;
-  flex-direction: column;
-  align-self: stretch;
-  align-items: start;
-  width: 100%;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 58px 62px;
-  font-weight: 400;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(132, 83, 255, 0.6);
+  border-radius: 12px;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 /* .highlighted {
@@ -173,9 +172,7 @@
 .subscribeButton {
   color: #fff;
   white-space: nowrap;
-  text-align: center;
-  background-color: #7243bc26;
-  border-radius: 6px;
+  border-radius: 8px;
   align-self: center;
   width: 236px;
   max-width: 100%;
@@ -186,6 +183,10 @@
   line-height: 1.2;
   border: none;
   cursor: pointer;
+  background: linear-gradient(90deg, #482087 0%, #1f0d3c 100%);
+
+  justify-content: center;
+  align-items: center;
 }
 
 @media (width<=991px) {
