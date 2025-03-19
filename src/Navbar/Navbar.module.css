@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+.navbar {
+  display: flex;
+  align-items: stretch;
+  gap: 40px 100px;
+  width: 100%;
+  max-width: 1798px;
+  margin-right: 23px;
+  font-family: Open Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  position: relative;
+  color: #fff;
+}
+
+@media (width<=991px) {
+  .navbar {
+    max-width: 100%;
+    margin-right: 10px;
+  }
+}
+
+.logo {
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-self: start;
+  width: 130px;
+  font-family: Michroma, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.highlight {
+  color: rgba(163, 123, 208, 1);
+}
+
+.navLinks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 40px 94px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 23px;
+  white-space: nowrap;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+@media (width<=991px) {
+  .navLinks {
+    max-width: 100%;
+    white-space: initial;
+  }
+}
+
+.authButtons {
+  display: flex;
+  text-align: center;
+  align-items: stretch;
+  gap: 25px;
+  font-size: 20px;
+}
+
+.loginButton {
+  border-radius: 8px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px 48px 18px;
+  color: #fff;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(180deg, #5e2ea8 0%, #2a134d 100%, #7243bc 15%);
+  color: white;
+}
+
+@media (width<=991px) {
+  .loginButton {
+    white-space: initial;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.signUpButton {
+  border-radius: 8px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px 48px 18px;
+  color: #fff;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(90deg, #482087 0%, #1f0d3c 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (width<=991px) {
+  .signUpButton {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

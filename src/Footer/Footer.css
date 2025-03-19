@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* background: #0b0014; */
+  color: #fff;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.topSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.logoSection {
+  text-align: start;
+  margin-left: 132px;
+  margin-bottom: 30px;
+  flex: 1 1 100%;
+}
+
+.logoText {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.highlight {
+  color: #a37bd0;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: start;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.socialIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.linksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: -134px;
+  width: 100%;
+  gap: 20px;
+}
+
+.linksColumns {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 100px;
+  margin-right: 120px;
+  flex: 1 1 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.linkHeader {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.stayConnected {
+  margin-top: 40px;
+  text-align: start;
+  margin-left: 132px;
+  font-size: 24px;
+  font-family: Michroma, sans-serif;
+}
+
+.communityText {
+  text-align: start;
+  margin-top: 10px;
+  margin-left: 132px;
+}
+
+.copyright {
+  text-align: end;
+  margin-top: -40px;
+  margin-right: 120px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .topSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .linksContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .linksColumns {
+    align-items: center;
+  }
+
+  .communityText,
+  .copyright {
+    text-align: center;
+  }
+}

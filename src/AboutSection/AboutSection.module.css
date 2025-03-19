@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1692px;
+  margin-top: 267px;
+}
+
+@media (width<=991px) {
+  .aboutSection {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-family: Michroma, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+@media (width<=991px) {
+  .title {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+
+.description {
+  color: #fff;
+  text-align: center;
+  width: 1274px;
+  margin-top: 54px;
+  font-family: Open Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+@media (width<=991px) {
+  .description {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.featuresTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  width: 100%;
+  max-width: 1499px;
+  margin-top: 135px;
+  font-weight: 400;
+}
+
+@media (width<=991px) {
+  .featuresTop {
+    max-width: 100%;
+    margin-top: 40px;
+    flex-direction: column;
+  }
+}
+
+.featuresBottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  width: 977px;
+  max-width: 100%;
+  margin-top: 70px;
+  font-weight: 400;
+}
+
+@media (width<=991px) {
+  .featuresBottom {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+}
+
+.featureItem {
+  display: flex;
+  align-items: stretch;
+  gap: 35px;
+}
+
+.featureNumber {
+  color: #e6c5ff;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: Michroma, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 41px;
+  line-height: 1.2;
+}
+
+.featureText {
+  color: #fff;
+  flex: auto;
+  font-family: Open Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 19px;
+  line-height: 38px;
+}
